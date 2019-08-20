@@ -17,9 +17,12 @@ Here's what I'm thinking the process might look like:
     - Yes, you lose the automatic insertion that you get with Google Docs, but the efficiency gains in the rest of the process may be worth it.   
     - You still get to use Paperpile for managing and marking up PDFs and references.   
     - Many of my collaborators can’t use Google Docs anyway.   
+    - Other citation managers that my collaborators use can generate bibtex files that they can share with me.   
 * Send to collaborators.   
 * They send back track changes.   
 * I will make edits.   
 * Then I should be able to cut and paste those edits back into the Rmd file. I need to test this, but I think git is smart enough to be able to highlight only the lines that changed — even if you cut and paste an entire paragraph. Even if it can’t, it’s not the end of the world.
 
 I'm going to simulate this process in this repository. I'm especially curious to test the versioning stuff.
+
+* I still want to try creating a document using officer.

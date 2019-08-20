@@ -1,0 +1,34 @@
+---
+title: "Test Research Paper"
+author: "Brad Cannell"
+date: "8/20/2019"
+output: 
+  word_document:
+    reference_docx: word_style_template_01.docx
+bibliography: citations.bibtex
+csl: ama.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Test paragraph
+
+First responders are uniquely positioned to bypass barriers to the detection and documentation of EM. Unlike other providers, EMS and law enforcement routinely respond to calls to the older adult’s residence and are frequently able to directly observe the older adult in the context of their living environment and caregiving situation.[@Cannell2016-ay; @Cannell2019-sq; @Reingle_Gonzalez2016-dw] Access to observable cues in the physical and social environment creates opportunities to identify, report, and document EM that may otherwise never happen.
+
+## Some notes
+
+* I copied and pasted a paragraph from one of the DETECT papers.   
+* Here are some notes on adding citations into the document: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html   
+* I grabbed the information needed for the bibtex file directly from Paperpile.   
+* I knitted this Rmd file to a Word document.   
+
+# Figures
+
+```{r echo=FALSE}
+data(mtcars)
+plot(mtcars$mpg, mtcars$disp)
+```
+
+# References
