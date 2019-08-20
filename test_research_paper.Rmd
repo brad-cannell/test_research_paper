@@ -24,6 +24,13 @@ First responders are uniquely positioned to bypass barriers to the detection and
 * I grabbed the information needed for the bibtex file directly from Paperpile.   
 * I knitted this Rmd file to a Word document.   
 
+## Simulate someone adding a new paragraph
+
+Here, I am just simulating someone adding a new paragraph to the Word document and sending it to me. I think this situation is simpler than making track changes to an existing paragraph and sending it to me. Note that I did bold the text above (“Simulate someone adding a new paragraph”), and I’ll probably need to figure out the easiest way to get formatting back into the Rmd document. I’m not too worried about it though. I use relatively few headers and whatnot in my papers. Additionally, Officer may help with this stuff.
+
+After typing this paragraph, I saved it. Then I cut and paste the text into the Rmd document. Then I knitted the Word document again.
+
+
 # Figures
 
 ```{r echo=FALSE}
