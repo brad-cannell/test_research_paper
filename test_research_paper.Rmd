@@ -35,7 +35,7 @@ After typing this paragraph, I saved it. Then I cut and paste the text into the 
 
 ```{r echo=FALSE}
 data(mtcars)
-plot(mtcars$mpg, mtcars$disp)
+plot(mtcars$mpg, mtcars$wt)
 ```
 
 # References
