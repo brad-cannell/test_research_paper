@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Test paragraph
 
-First responders are uniquely positioned to bypass barriers to the detection and documentation of EM. Unlike other providers, EMS and law enforcement routinely respond to calls to the older adult’s residence and are frequently able to directly observe the older adult in the context of their living environment and caregiving situation.[@Cannell2016-ay; @Cannell2019-sq; @Reingle_Gonzalez2016-dw] Access to observable cues in the physical and social environment creates opportunities to identify, report, and document EM that may otherwise never happen.
+First responders are the only medical professionals positioned to bypass barriers to the detection and documentation of EM. Unlike other providers, EMS and law enforcement routinely respond to calls to the older adult’s residence and are frequently able to directly observe the older adult in the context of their living environment and caregiving situation.1–3 Access to observable cues in the physical and social environment creates opportunities to identify, report, and document EM that may otherwise never happen.
 
 ## Some notes
 

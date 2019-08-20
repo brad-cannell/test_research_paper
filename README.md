@@ -25,4 +25,8 @@ Here's what I'm thinking the process might look like:
 
 I'm going to simulate this process in this repository. I'm especially curious to test the versioning stuff.
 
-* I still want to try creating a document using officer.
+# Results
+
+* I simulated the addition of a new paragraph to the Word document and then cut and paste it into the Rmd document. The process was easy and the [diff created on Github is really useful](https://github.com/brad-cannell/test_research_paper/commit/04fc609e4e1d3505adb15de8af41b66cb2ef63a9)   
+
+* I simulated a collaborator changing "uniquely" to "the only medical professionals" in the first paragraph using track changes. Then I saved it, accepted the change, and then cut an pasted the entire paragraph with the wording change into my Rmd file, then I knitted the Word document again. I could have made things easier by only cutting a pasting the part that changed, but I want to see if Github recognizes only the parts that changed if I cut and past the whole paragraph. In a real scenario, cutting and pasting each individual change would be a pain.
